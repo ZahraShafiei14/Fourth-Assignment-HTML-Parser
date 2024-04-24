@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a605dfff-ee43-4feb-8a32-11c0aa0402f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+    <list default="true" id="a605dfff-ee43-4feb-8a32-11c0aa0402f8" name="Changes" comment="Completed country and parser classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HockeyTeams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ParserHockeyTeams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ParserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ParserTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ParserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ParserTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,9 +78,16 @@
       <recent name="E:\homework\semester 4\TA\HTML-Parser\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ParserTest.testSortByPopulation">
+  <component name="RunManager" selected="Application.ParserHockeyTeams">
     <configuration name="Parser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Parser" />
+      <module name="HTML-Parser.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParserHockeyTeams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParserHockeyTeams" />
       <module name="HTML-Parser.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,29 +139,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ParserTest.testSortByName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ParserTest.testSortByName&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="ParserTest.testSortByPopulation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -179,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ParserTest.testSortByPopulation" />
+        <item itemvalue="Application.ParserHockeyTeams" />
         <item itemvalue="Gradle.ParserTest" />
+        <item itemvalue="Gradle.ParserTest.testSortByPopulation" />
         <item itemvalue="Gradle.ParserTest.testSortByArea" />
         <item itemvalue="Application.Parser" />
-        <item itemvalue="Gradle.ParserTest.testSortByName" />
       </list>
     </recent_temporary>
   </component>
@@ -203,8 +201,16 @@
       <workItem from="1713383142789" duration="1553000" />
       <workItem from="1713481038715" duration="3901000" />
       <workItem from="1713752601204" duration="1631000" />
-      <workItem from="1713919496564" duration="3256000" />
+      <workItem from="1713919496564" duration="9865000" />
     </task>
+    <task id="LOCAL-00001" summary="Completed country and parser classes">
+      <created>1713925980819</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713925980819</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +226,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Completed country and parser classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed country and parser classes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="8" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

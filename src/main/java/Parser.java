@@ -56,6 +56,7 @@ public class Parser {
                 case 1: countryList = parser.sortByArea(); break;
                 case 2: countryList = parser.sortByName(); break;
                 case 3: countryList = parser.sortByPopulation(); break;
+                default: System.out.println("Invalid choice!");
             }
             for (Country country : countryList) {
                 System.out.println("-"+country.toString());
